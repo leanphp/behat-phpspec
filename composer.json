@@ -19,11 +19,15 @@
         "rmiller/caser": "^0.1"
     },
     "replace": {
+        "rmiller/behat-spec": "self.version",
         "rmiller/behat-spec-extension": "self.version",
         "rmiller/error-extension": "self.version",
         "rmiller/phpspec-extension": "self.version",
         "rmiller/exemplify-extension": "self.version",
         "rmiller/phpspec-run-extension": "self.version"
+    },
+    "conflict": {
+        "rmiller/behat-spec": "*"
     },
     "autoload": {
         "psr-4": {
